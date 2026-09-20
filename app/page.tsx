@@ -61,7 +61,7 @@ export default function Home() {
           {lots.map((lot, index) => (
             <article className="product-card" key={lot.name}>
               <div className={`product-photo crop-${index + 1}`}>
-                <Image src="/hetao-hero.png" alt={`${lot.name}配对展示`} fill sizes="(max-width: 800px) 100vw, 33vw" />
+                <Image src={index === 1 ? "/sizoulou-walnuts.png" : "/hetao-hero.png"} alt={`${lot.name}配对展示`} fill sizes="(max-width: 800px) 100vw, 33vw" />
                 <span>HTX · 00{index + 7}</span>
               </div>
               <div className="product-info"><div><p>{lot.shape}</p><h3>{lot.name}</h3></div><strong>{lot.price}</strong></div>
