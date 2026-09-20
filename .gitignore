@@ -46,3 +46,22 @@ next-env.d.ts
 /work/
 
 /.pnpm-store/
+
+# OS, editor, and tool caches
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.swp
+*.tsbuildinfo
+/.idea/
+/.vscode/
+/.cache/
+/.turbo/
+/.eslintcache
+
+# local archives and generated previews
+*.zip
+*.tar
+*.tar.gz
+/tmp/
